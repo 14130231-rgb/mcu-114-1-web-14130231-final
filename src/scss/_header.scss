@@ -20,12 +20,34 @@ header {
         font-size: 1.25rem;
         font-weight: 700;
         line-height: 1.75rem;
-        color: lightseagreen;
+        color: rgb(72, 132, 251);
       }
 
       > div {
         display: flex;
-        gap: 0.5rem;
+        align-items: center;
+
+        &.left {
+          gap: 2rem;
+        }
+
+        &.right {
+          gap: 0.5rem;
+        }
+      }
+
+      nav {
+        display: flex;
+        gap: 1.5rem;
+
+        a {
+          color: rgb(211, 167, 45);
+          text-decoration: inherit;
+
+          &:hover {
+            color: rgb(137, 114, 38);
+          }
+        }
       }
     }
   }
