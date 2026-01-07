@@ -13,7 +13,7 @@ section {
     margin: 0 auto;
 
     > div {
-      outline: solid 1px red;
+      padding-block: 4rem;
 
       &.home {
         height: 100vh;
@@ -21,6 +21,7 @@ section {
 
       &.page {
         min-height: 700px;
+        outline: solid 1px red;
       }
     }
   }
