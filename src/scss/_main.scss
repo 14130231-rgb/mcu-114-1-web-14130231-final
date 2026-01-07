@@ -2,9 +2,26 @@ section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: space-between;
+  width: 100%;
 
   div.main {
     flex-grow: 1;
+  }
+
+  main.wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+
+    > div {
+      outline: solid 1px red;
+
+      &.home {
+        height: 100vh;
+      }
+
+      &.page {
+        min-height: 700px;
+      }
+    }
   }
 }

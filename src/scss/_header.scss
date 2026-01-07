@@ -1,5 +1,9 @@
 header {
-  border-bottom: solid 1px lightblue;
+  border-bottom: solid 1px rgb(211, 220, 223);
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  z-index: 50;
 
   div.container {
     max-width: 90vw;
